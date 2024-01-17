@@ -1,4 +1,4 @@
-# CSE 15L Lab 1 | 1/11/24
+# CSE 15L Lab 1
 
 Jacob Hansen
 

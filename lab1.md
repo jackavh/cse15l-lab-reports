@@ -1,10 +1,11 @@
 # CSE 15L Lab 1
 
 Jacob Hansen
-
 PID: A18031849
 
 ## cd
+
+---
 
 `cd` stands for _change directory_ and can be used to move the working directory elsewhere.
 
@@ -28,6 +29,8 @@ cd: not a directory: ./lab1.md
 ```
 
 ## ls
+
+---
 
 `ls` lists directory contents in a few ways.
 
@@ -58,6 +61,8 @@ lecture2-notes.txt
 ```
 
 # cat
+
+---
 
 `cat` is short for concatenate. It concatenates the content of files onto the standard output.
 

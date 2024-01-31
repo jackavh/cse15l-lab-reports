@@ -1,4 +1,5 @@
 set -e
 
-javac *.java
-java NumberServer $1
+# javac *.java
+javac Server.java ChatServer.java
+java ChatServer $1

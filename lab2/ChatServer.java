@@ -33,6 +33,7 @@ class Handler implements URLHandler {
     String chat = "Welcome to the ChatServer! Make a request to begin.\n\n";
 
     public String handleRequest(URI url) {
+        System.out.println(url);
         if (url.getPath().equals("/")) {
             return chat;
         } else {

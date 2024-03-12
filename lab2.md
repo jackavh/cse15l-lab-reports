@@ -69,7 +69,7 @@ class ChatServer {
 
 ## Screenshots
 
-![](./images/lab2first.png)
+![](lab2first.png)
 
 ### Method Calls
 
@@ -91,7 +91,7 @@ class ChatServer {
 
 5. The rest of the methods are basic String methods, `substring`, `equals`, `format`
 
-![](./images/lab2second.png)
+![](lab2second.png)
 
 1. `ServerHttpHandler.handle(final HttpExchange exchange)`
 
@@ -113,11 +113,11 @@ class ChatServer {
 
 # Part 2
 
-![](./images/lab2local.png)
+![](lab2local.png)
 
-![](./images/lab2remote.png)
+![](lab2remote.png)
 
-![](./images/lab2login.png)
+![](lab2login.png)
 
 # Part 3
 

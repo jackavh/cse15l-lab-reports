@@ -1,12 +1,14 @@
+# Lab 5  -  Jacob Hansen  -  A18031849
+
 # Original Post
 
 Hi, I'm working on my grader script and am running into a strange error. No matter which test repository I run it on, the script  never finds the `ListExamples.java` file. Here's what I get when running the script, and the contents of `grade.sh`:
 
-![[Screenshot 2024-03-12 at 9.36.29 PM.png]]
+![[lab5-01.png]]
 
-![[Screenshot 2024-03-12 at 9.37.03 PM.png]]
+![[lab5-02.png]]
 
-![[Screenshot 2024-03-12 at 9.37.24 PM.png]]
+![[lab5-03.png]]
 
 And then here's `grade.sh`:
 
@@ -70,7 +72,7 @@ Hmmm, from your output it looks like the if block when `${submission_dir}` does 
 
 Adding the `echo` showed me that it wasn't going to the `student-submission` directory. I think that putting `/student-submission` inside the `$(pwd)` part is what messed up the script. It works now!
 
-![[Screenshot 2024-03-12 at 10.16.06 PM.png]]
+![[lab5-04.png]]
 
 # Setup Information
 

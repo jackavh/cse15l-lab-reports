@@ -66,7 +66,7 @@ I know this is a long question, but I'm really stuck!
 
 # Tutor Response
 
-Hmmm, from your output it looks like the if block when `${submission_dir}` does not exist. It could help to add `echo "${submission_dir}"` to see how the path is being expanded.
+It seems like from the output you’ve shown that the `if` block is executed when the ﻿`${submission_dir}` directory doesn’t exist. To better understand what’s going on, you might want to add ﻿`echo "${submission_dir}"`. This will show you how the path is being expanded. Does that make sense?
 
 # Student Response
 

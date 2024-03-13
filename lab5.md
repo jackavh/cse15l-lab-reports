@@ -4,11 +4,11 @@
 
 Hi, I'm working on my grader script and am running into a strange error. No matter which test repository I run it on, the script  never finds the `ListExamples.java` file. Here's what I get when running the script, and the contents of `grade.sh`:
 
-![[lab5-01.png]]
+![[./images/lab5-01.png]]
 
-![[lab5-02.png]]
+![[./images/lab5-02.png]]
 
-![[lab5-03.png]]
+![[./images/lab5-03.png]]
 
 And then here's `grade.sh`:
 
@@ -72,7 +72,7 @@ Hmmm, from your output it looks like the if block when `${submission_dir}` does 
 
 Adding the `echo` showed me that it wasn't going to the `student-submission` directory. I think that putting `/student-submission` inside the `$(pwd)` part is what messed up the script. It works now!
 
-![[lab5-04.png]]
+![[./images/lab5-04.png]]
 
 # Setup Information
 
